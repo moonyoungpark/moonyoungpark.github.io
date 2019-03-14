@@ -95,7 +95,8 @@ nav{display:none;
     
 .explain{font-size:0.8rem;}   
 .explain span{font-weight:bold;}    
-    
+.ori_po{padding-top:10px;}    
+.ori_po a{color:#fff;text-decoration:underline;}    
 /*content_web*/
 
 .content_web{display:none;
@@ -167,7 +168,7 @@ nav{display:none;
 .about_education span, .about_license span{display:block;}    
 */
 /*content_skill*/    
-.content_skill{
+.content_skill{display:none;
     position:absolute;z-index:11;top:50px;right:0;left:0;background:#fff;
     width:100%; height:calc(100% - 50px);padding-top:50px;box-sizing:border-box;
     }
