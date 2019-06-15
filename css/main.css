@@ -202,7 +202,7 @@ nav{display:none;
     
     
 }/*-----------모바일 버전 끝---------------*/
-/*-----------태블릿 버전 끝---------------*/
+/*-----------태블릿 버전 ---------------*/
 @media (min-width:768px) and (max-width:1299.9px) {
 /*common*/
 body{padding:50px;box-sizing:border-box;}
