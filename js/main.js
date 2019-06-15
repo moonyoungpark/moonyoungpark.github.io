@@ -33,22 +33,18 @@ if ($(window).width() < 768) {
     });
     
     $('.sub_web').on('click focusin',function(){
-        event.preventDefault();
         $('.content_web').show();
         $('nav').hide();
     });
     $('.sub_design').on('click focusin',function(){
-        event.preventDefault();
         $('.content_design').show();
         $('nav').hide();
     });
     $('.sub_about').on('click focusin',function(){
-        event.preventDefault();
         $('.content_about').show();
         $('nav').hide();
     });
     $('.sub_skill').on('click focusin',function(){
-        event.preventDefault();
         $('.content_skill').show();
         $('nav').hide();
     });
